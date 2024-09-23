@@ -107,18 +107,18 @@ function Monday() {
     CreateCard(schedule[1])
     CreateCard(schedule[2])
     CreateCard(schedule[3])
-    CreateCard(schedule[4])
-    CreateCard(schedule[5])
+    CreateCard(schedule[4], vned_is, 35, prep_sin)
+    CreateCard(schedule[5], vned_is, 35, prep_sin)
     CreateCard(schedule[6])
 }
 function Tuesday() {
     CreateDay("Вторник")
-    CreateCard(schedule[0], empty, empty, empty, -1)
+    CreateCard(schedule[0], "Иностранный язык", 21, "Кулькова Л.Г.", -1)
     CreateCard(schedule[1])
     CreateCard(schedule[2])
     CreateCard(schedule[3])
-    CreateCard(schedule[4], vned_is, 35, prep_sin)
-    CreateCard(schedule[5], vned_is, 35, prep_sin)
+    CreateCard(schedule[4])
+    CreateCard(schedule[5])
     CreateCard(schedule[6])
 }
 function Wednesday() {
