@@ -127,8 +127,8 @@ function Wednesday() {
     CreateCard(schedule[1])
     CreateCard(schedule[2], test_is, 35, prep_pom)
     CreateCard(schedule[3], test_is, 35, prep_pom)
-    CreateCard(schedule[4], techpod_is, 43, prep_pom)
-    CreateCard(schedule[5], techpod_is, 43, prep_pom)
+    CreateCard(schedule[4])
+    CreateCard(schedule[5])
     CreateCard(schedule[6])
 }
 function Thursday() {
