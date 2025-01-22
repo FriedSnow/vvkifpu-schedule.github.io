@@ -3,8 +3,19 @@ const test_is = "Тестирование ИС"
 const techpod_is = "Инженерно-техническая поддержка ИС"
 const diplom = "Консультации по дипломным работам"
 
+const management = "Менеджмент"
+const prav_obes = ""
+const ustroistvo = ""
+const sert = ""
+const int_sys = ""
+const uprav_baz = ""
+
+
+
 const prep_pom = "Помыткин В.А."
 const prep_sin = "Синенок В.Н."
+const prep_mal = ""
+const prep_bys = ""
 
 const schedule = [
     "08:00 - 09:35",
@@ -105,30 +116,30 @@ function Monday() {
     CreateDay("Понедельник")
     CreateCard(schedule[0], empty, empty, empty, -1)
     CreateCard(schedule[1])
-    CreateCard(schedule[2])
-    CreateCard(schedule[3])
-    CreateCard(schedule[4], vned_is, 35, prep_sin)
-    CreateCard(schedule[5], vned_is, 35, prep_sin)
-    CreateCard(schedule[6])
+    CreateCard(schedule[2], management, 21, prep_mal)
+    CreateCard(schedule[3], management, 21, prep_mal)
+    CreateCard(schedule[4], prav_obes, 41, prep_bys)
+    CreateCard(schedule[5], ustroistvo, 35, prep_sin)
+    CreateCard(schedule[6], ustroistvo, 35, prep_sin)
 }
 function Tuesday() {
     CreateDay("Вторник")
-    CreateCard(schedule[0], "Иностранный язык", 21, "Кулькова Л.Г.", -1)
+    CreateCard(schedule[0], empty, empty, empty, -1)
     CreateCard(schedule[1])
     CreateCard(schedule[2])
     CreateCard(schedule[3])
-    CreateCard(schedule[4])
-    CreateCard(schedule[5])
+    CreateCard(schedule[4], sert, 35, prep_pom)
+    CreateCard(schedule[5], sert, 35, prep_pom)
     CreateCard(schedule[6])
 }
 function Wednesday() {
     CreateDay("Среда")
-    CreateCard(schedule[0], empty, empty, empty, -1)
-    CreateCard(schedule[1])
-    CreateCard(schedule[2], test_is, 35, prep_pom)
-    CreateCard(schedule[3], test_is, 35, prep_pom)
-    CreateCard(schedule[4])
-    CreateCard(schedule[5])
+    CreateCard(schedule[0], int_sys, 35, prep_sin, -1)
+    CreateCard(schedule[1], int_sys, 35, prep_sin)
+    CreateCard(schedule[2], uprav_baz, 35, prep_sin)
+    CreateCard(schedule[3], uprav_baz, 35, prep_sin)
+    CreateCard(schedule[4], management, 41, prep_mal)
+    CreateCard(schedule[5], management, 41, prep_mal)
     CreateCard(schedule[6])
 }
 function Thursday() {
@@ -137,17 +148,17 @@ function Thursday() {
     CreateCard(schedule[1])
     CreateCard(schedule[2])
     CreateCard(schedule[3])
-    CreateCard(schedule[4], techpod_is, 35, prep_pom)
-    CreateCard(schedule[5], techpod_is, 35, prep_pom)
+    CreateCard(schedule[4])
+    CreateCard(schedule[5])
     CreateCard(schedule[6])
 }
 function Friday() {
     CreateDay("Пятница")
-    CreateCard(schedule[0], diplom, 35, prep_sin, -1)
-    CreateCard(schedule[1], diplom, 35, prep_sin)
+    CreateCard(schedule[0], empty, empty, empty, -1)
+    CreateCard(schedule[1])
     CreateCard(schedule[2])
-    CreateCard(schedule[3])
-    CreateCard(schedule[4])
+    CreateCard(schedule[3], management, 41, prep_mal)
+    CreateCard(schedule[4], management, 41, prep_mal)
     CreateCard(schedule[5])
     CreateCard(schedule[6])
 }
