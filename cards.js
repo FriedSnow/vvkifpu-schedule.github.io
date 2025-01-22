@@ -4,18 +4,16 @@ const techpod_is = "Инженерно-техническая поддержка
 const diplom = "Консультации по дипломным работам"
 
 const management = "Менеджмент"
-const prav_obes = ""
-const ustroistvo = ""
-const sert = ""
-const int_sys = ""
-const uprav_baz = ""
-
-
+const prav_obes = "Правовое обеспечение проф. деят."
+const ustroistvo = "Устройство и функционирование ИС"
+const sert = "Сертификация ИС"
+const int_sys = "Интеллект системы и технологии"
+const uprav_baz = "Управление и автомат. баз данных"
 
 const prep_pom = "Помыткин В.А."
 const prep_sin = "Синенок В.Н."
-const prep_mal = ""
-const prep_bys = ""
+const prep_mal = "Малышева Н.В."
+const prep_bys = "Быстроновская М.А."
 
 const schedule = [
     "08:00 - 09:35",
