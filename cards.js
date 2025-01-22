@@ -7,7 +7,7 @@ const management = "Менеджмент"
 const prav_obes = "Правовое обеспечение проф. деят."
 const ustroistvo = "Устройство и функционирование ИС"
 const sert = "Сертификация ИС"
-const int_sys = "Интеллект системы и технологии"
+const int_sys = "Интеллект. системы и технологии"
 const uprav_baz = "Управление и автомат. баз данных"
 
 const prep_pom = "Помыткин В.А."
